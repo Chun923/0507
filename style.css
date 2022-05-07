@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.位移 {
+    width: 100px;
+    height: 100px;
+    background-color: #A4F0FF;
+    line-height: 100px;
+    text-align: center;
+    -webkit-transition: all 0.8s ease-in-out 0s;
+    -o-transition: all 0.8s ease-in-out 0s;
+    transition: all 0.8s ease-in-out 0s;
+}
+
+.旋轉 {
+    width: 100px;
+    height: 100px;
+    background-color: #B1FCE0;
+    text-align: center;
+    line-height: 100px;
+    -webkit-transition: all 0.8s ease-in-out 0s;
+    -o-transition: all 0.8s ease-in-out 0s;
+    transition: all 0.8s ease-in-out 0s;
+}
+.縮放 {
+    width: 100px;
+    height: 100px;
+    background-color: #FAFDB6;
+    line-height: 100px;
+    text-align: center;
+    -webkit-transition: all 0.8s ease-in-out 0s;
+    -o-transition: all 0.8s ease-in-out 0s;
+    transition: all 0.8s ease-in-out 0s;
+}
+.縮放:hover {
+    width: 120px;
+	height: 120px;
+}
+.旋轉:hover {
+    transform: rotate(10deg);
+}
+.位移:hover {
+    transform: translateX(30px);
+}
